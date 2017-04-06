@@ -1,0 +1,325 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	background:#ECECEC;
+}
+
+.logo {
+text-decoration: none;
+}
+
+nav {
+	background: #ECECEC;
+	border-bottom: 1px solid #2d2d2d;
+	height: 150px;
+	margin-bottom: 5%;
+}
+
+nav img {
+	width: 30px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border:none;
+	line-height: normal;
+	vertical-align: middle;
+	position: relative;
+	top: 42px;
+	left: 20px;
+}
+nav span {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	position: relative;
+	top: 48px;
+	left: 25px;
+}
+
+.sitenav {
+	position: absolute;
+	right: 50px;
+	font-size: 25px;	
+}
+.sitenav li {
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 11px;
+	letter-spacing: 5px;
+}
+
+.sitenav li > a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	font-size: 140%;
+	letter-spacing: 1px;
+	margin-bottom: 2%;
+	text-align: center;
+}
+p {
+	text-align: center;
+	margin-bottom: 3%;
+}
+span {
+	color: #FC859F;
+}
+
+img {
+	width: 1050px;
+	height: 300px;
+	position: relative;
+	left: 45px;
+	border-radius: 5px;
+	top: 22px;
+}
+
+.left {
+	margin-top: 4%;
+	width: 48%;
+	float: left;
+	margin-bottom: 2%;
+}
+.left h3 {
+	font-size: 25px;
+	font-weight: normal;
+	text-align: center;
+	color: #f38094;
+	margin-bottom: 5%;
+}
+.left p {
+	font-size: 100%;
+	line-height: 140%;
+}
+.left p a {
+	color: #f38094;
+	text-decoration:none;
+}
+.right {
+	margin-top:4%;
+	width:48%;
+	float:right;
+	margin-bottom:2%;
+}
+.right h3 {
+	font-size:25px;
+	font-weight:normal;
+	text-align:center;
+	color:#f38094;
+	margin-bottom:5%;
+}
+.right p {
+	font-size:100%;
+	line-height:140%;
+}
+.right p a {
+	color:#f38094;
+	text-decoration:none;
+}
+
+.pic img {
+	height: 90px;
+	width: 90px;
+}
+.pic {
+	border-radius:15px;
+	width:180px;
+	height:185px;
+	background-color: white;
+	margin:10px;
+	float:left;
+	overflow: hidden;
+	position: relative;
+	left: 75px;
+}
+
+.pic h3 {
+	text-align: center;
+	border-top: 1px solid black;
+}
+.pic p {
+	text-align: center;
+	color: #f38094;
+}
+
+.bottom {
+	margin:4% 0 3% 0;
+	font-family:Cookie, Arial, Helvetica, sans-serif;
+	font-size:190%;
+	font-weight:normal;
+	text-align:center;
+	color:#f38094;
+	text-shadow: 0 1px 1px #c1c1c1;
+	display: inline-block;
+	position: relative;
+	left: 255px;
+}
+.bottom h3 {
+	text-align: center;
+}
+footer {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #2d2d2d;
+	color: #f38094;
+}
+footer h3 {
+	margin-left: 25px;
+}
+footer form {
+	display: table-caption;
+}
+footer input {
+	margin: 3px;
+	width: 500px;
+	height: 20px;
+	border-radius: 2px;
+	margin-left: 25px;
+}
+footer textarea {
+	margin: 5px;
+	width: 500px;
+	height: 100px;
+	border-radius: 2px;
+	margin-left: 25px;
+}
+
+footer button {
+	background-color: #2d2d2d;
+	border:none;
+	color: white;
+	font-size: 12px;
+	margin-left: 25px;
+}
+
+#socialMedia {
+	display: block;
+	position: relative;
+	bottom: 95px;
+	left: 1000px;
+	color: white;
+}
+
+#socialMedia a {
+	border-radius: 2px;
+	background-color: #f38094;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	padding: 7px 9px;
+}
+
+fa-facebook {
+content: /f09a;
+color: white;
+}
+
+@media (max-width: 640px) {
+	ul.sitenav {
+		text-align: center;
+	}
+}
+@media (max-width: 630px) {
+	nav span {
+		top: 30px;
+		left: 120px;
+	}
+	nav img {
+		left: 120px;
+		top: 25px;
+	}
+}
+@media (max-width: 440px) {
+	h1 {
+		display: grid;
+	}
+}
+
+@media (max-width: 1096px) {
+	img {
+		width: 340px;
+		height: 200px;
+	}
+}
+@media (max-width: 453px) {
+	.right {
+		padding-top: none;
+
+	}
+	.right p {
+		line-height: 150%;
+	}
+}
+@media (max-width: 482px) {
+	.pic {
+		position: relative;
+		left: 2px;
+	}
+	.pic img {
+		margin-left: 20px;
+	}
+	img {
+		left: 30px;
+	}
+}
+@media (max-width: 905px) {
+	.bottom {
+		left: none;
+		position: inherit;
+	}
+}
+@media (max-width: 531px) {
+	footer h3 {
+		text-align: center;
+		margin-left: 25px;
+	}
+	footer input {
+		height: 20px;
+		width: 115px;
+		margin-left: 59px;
+	}
+	footer textarea {
+		margin: 10px;
+		width: 300px;
+		height: 100px;
+		margin-left: 60px;
+	}
+	footer button {
+		margin-left: 197px;
+	}
+	footer form {
+		width: 400px;
+	}
+	footer {
+		padding-bottom: 50px;
+	}
+	#socialMedia {
+		display: none;
+		position: none;
+		bottom: none;
+		left: none;
+		color: none;
+	}
+	#socialMedia a {
+		border-radius: none;
+		background-color: none;
+		color: none;
+		text-decoration: none;
+		margin: none;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
